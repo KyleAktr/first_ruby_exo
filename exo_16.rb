@@ -7,6 +7,6 @@ tab = []
 
 while i < user_choice
     i += 1
-    tab[i] = "#" * i 
-    puts tab[i]
+    tab[i] = "#" * i
+    puts tab[i].rjust(user_choice)
 end
